@@ -1,5 +1,8 @@
 package com.example.demo.domain;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import com.example.demo.domain.piezas.*;
 
 public class CocheHibrido extends Coche  {
@@ -25,7 +28,10 @@ public class CocheHibrido extends Coche  {
 	}
 	
 	public void addTanqueHidrogeno() {
-		System.out.println("Tiene motor de hidrogeno arrancado");
+		Logger logger
+        = Logger.getLogger(
+            CocheHibrido.class.getName());
+	       logger.log(Level.INFO,"Tiene motor de hidrogeno arrancado");
 		
 	}
 

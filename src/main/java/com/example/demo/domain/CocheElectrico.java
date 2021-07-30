@@ -1,10 +1,14 @@
 package com.example.demo.domain;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import com.example.demo.domain.piezas.*;
 
 public class CocheElectrico extends Coche {
 	
 	private BateriaElectrica bateriaElectrica;
+	
 
 	public CocheElectrico() {
 		// TODO Auto-generated constructor stub
@@ -25,7 +29,10 @@ public class CocheElectrico extends Coche {
 	}
 
 	public void addBateriaElectrica() {
-		System.out.println("Tiene motor electrico arrancado");
+	       Logger logger
+           = Logger.getLogger(
+               CocheElectrico.class.getName());
+	       logger.log(Level.INFO,"Tiene motor electrico arrancado");
 	}
 
 	@Override

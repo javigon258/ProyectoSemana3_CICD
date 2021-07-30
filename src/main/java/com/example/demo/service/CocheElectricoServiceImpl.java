@@ -38,7 +38,7 @@ public class CocheElectricoServiceImpl implements CocheElectricoService {
 
 	@Override
 	public List<CocheElectrico> findAll() {
-		 return new ArrayList(coches.values());
+		 return new ArrayList<CocheElectrico>(coches.values());
 	}
 
 	@Override

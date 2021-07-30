@@ -1,5 +1,8 @@
 package com.example.demo.domain;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import com.example.demo.domain.piezas.*;
 
 public class CocheGasolina extends Coche {
@@ -26,7 +29,10 @@ public class CocheGasolina extends Coche {
 	}
 
 	public void addMotorGasolina() {
-		System.out.println("Tiene motor de gasolina");
+		Logger logger
+        = Logger.getLogger(
+            CocheGasolina.class.getName());
+	       logger.log(Level.INFO,"Tiene motor de gasolina");
 		
 	}
 

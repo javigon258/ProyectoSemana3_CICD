@@ -38,7 +38,7 @@ public class CocheGasolinaServiceImpl implements CocheGasolinaService {
 
 	@Override
 	public List<CocheGasolina> findAll() {
-		 return new ArrayList(coches.values());
+		 return new ArrayList<>(coches.values());
 	}
 
 	@Override

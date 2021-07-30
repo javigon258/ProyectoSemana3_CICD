@@ -38,7 +38,7 @@ public class CocheHibridoServiceImpl implements CocheHibridoService {
 
 	@Override
 	public List<CocheHibrido> findAll() {
-		 return new ArrayList(coches.values());
+		 return new ArrayList<>(coches.values());
 	}
 
 	@Override
