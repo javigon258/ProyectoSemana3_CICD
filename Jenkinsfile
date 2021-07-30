@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Sonar') {
            steps {
-               sh 'mvn verify sonar:sonar -Dsonar.projectKey=javigon258_ProyectoSemana3_CICD -Dsonar.organization=javigon258 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=b8c0f8a39493a7c6d93b47744b4eec7413365323 -Dsonar.branch.name=master'
+               sh 'mvn verify sonar:sonar -Dsonar.projectKey=javigon258_ProyectoSemana3_CICD -Dsonar.organization=javigon258 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=7234e2b7d5b8d5e9525e781418656a0ee339b573 -Dsonar.branch.name=master'
            }
         }
     }
