@@ -89,9 +89,9 @@ public class CocheElectricoServiceImpl implements CocheElectricoService {
 	}
 	
     private Long getMaxCocheElecId() {
-    	if (coches.isEmpty())
-			return 0L;
-
+    	if (coches.isEmpty()) {
+    		return 0L;
+    	}
         return Collections.max(coches.entrySet(),
                 (entry1, entry2) -> (int) (entry1.getKey() - entry2.getKey())
         ).getKey();
