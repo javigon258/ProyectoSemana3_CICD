@@ -10,15 +10,15 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>ProyectoSemana3_Maven_V2</artifactId>
+	<artifactId>ProyectoSemana3_CICD</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ProyectoSemana3_Maven_V2</name>
+	<name>ProyectoSemana3_CICD</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>16</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>16</maven.compiler.source>
-		<maven.compiler.target>16</maven.compiler.target>
+		<maven.compiler.source>14</maven.compiler.source>
+		<maven.compiler.target>14</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
