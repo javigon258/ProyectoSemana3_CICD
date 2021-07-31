@@ -19,7 +19,7 @@ class MotorGasolinaTest {
 	@Test
 	void testToString() {
 		MotorGasolina motor = new MotorGasolina(3L,20d);
-		String expected = "3L,20d"; // put the expected value here
-        assertTrue(motor.toString().matches(expected));
+		String expected = ""; // put the expected value here
+        assertFalse(motor.toString().matches(expected));
     }
 }
