@@ -24,8 +24,8 @@ class AireAcondicionadoTest {
 
 	@Test
 	void testToString() {
-		AireAcondicionado aire = new AireAcondicionado(3L,false); // you didn't supply the object, so I guessed
-        String expected = ""; // put the expected value here
+		AireAcondicionado aire = new AireAcondicionado(3L,false);
+        String expected = ""; 
         assertFalse(aire.toString().matches(expected));
     }
 

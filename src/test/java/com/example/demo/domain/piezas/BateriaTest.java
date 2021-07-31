@@ -24,7 +24,7 @@ class BateriaTest {
 	@Test
 	void testToString() {
 		Bateria bateria = new Bateria(3L,20d);
-		String expected = ""; // put the expected value here
+		String expected = "";
         assertFalse(bateria.toString().matches(expected));
     }
 
