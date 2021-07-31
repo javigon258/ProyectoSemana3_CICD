@@ -6,7 +6,6 @@ public class AireAcondicionado {
 	private boolean tieneAire = true;
 	
 	public AireAcondicionado(Long id, boolean tieneAire) {
-		super();
 		this.id = id;
 		this.tieneAire = tieneAire;
 	}
