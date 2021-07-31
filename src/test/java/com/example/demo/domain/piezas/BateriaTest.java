@@ -2,14 +2,9 @@ package com.example.demo.domain.piezas;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class BateriaTest {
-
-	@BeforeEach
-	void setUp() throws Exception {
-	}
 
 	@Test
 	void testBateria() {
